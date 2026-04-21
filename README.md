@@ -1,4 +1,4 @@
-# The phase unwrapping of under-sampled interferograms using compact radial basis function neural networks
+# Neural Network Reconstruction of the Electron Density of High Energy Density Plasmas From Under-Resolved Interferograms
 We are using non-linear regression coupled to a physics informed neutral network to unwrap the phase measured by interferometry. The newrok relies on:
 1. radial basis functions, which insures that the unwrapped phase is smooth;
 2. the wrapping operator, which removes phase jumps from the wrapped phase derivatives
