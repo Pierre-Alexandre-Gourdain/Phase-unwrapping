@@ -9,6 +9,17 @@ The combinations of physics operators with a Levenberg-Marquardt algorithm minim
 There is a serial version and a parallel version. Since numpy does a system solve in parallel, there is no point in running the code in parallel so each parallel section is running one after the other, so it effectively runs in parallel. However, matrices are much reduced is size due to domain decomposition.
 
 If you find this software useful and used it inside a publication, use the reference below in your bibliography:<br>
-https://arxiv.org/abs/2210.10541
+```
+@article{gourdain2024neural,
+  title={Neural Network Reconstruction of the Electron Density of High Energy Density Plasmas From Under-Resolved Interferograms},
+  author={Gourdain, P-A and Bachmann, A},
+  journal={IEEE Transactions on Plasma Science},
+  volume={52},
+  number={12},
+  pages={5581--5596},
+  year={2024},
+  publisher={IEEE}
+}```
+
 
 This work was supported by the NSF under the grant number PHY-1943939.
